@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Dados educacionais</title>
+  <desc id="desc">Dashboard educacional com barras e indicadores de desempenho.</desc>
+  <rect width="640" height="400" fill="#eef4ef"/>
+  <rect x="64" y="60" width="512" height="280" rx="8" fill="#ffffff" stroke="#d8e0da"/>
+  <rect x="104" y="256" width="68" height="42" rx="4" fill="#c95f35"/>
+  <rect x="196" y="214" width="68" height="84" rx="4" fill="#1f7a5c"/>
+  <rect x="288" y="176" width="68" height="122" rx="4" fill="#243b55"/>
+  <rect x="380" y="132" width="68" height="166" rx="4" fill="#1f7a5c"/>
+  <path d="M104 126 C180 154 228 120 296 142 S418 184 506 102" fill="none" stroke="#c95f35" stroke-width="7" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="104" y="96" font-size="22" fill="#1d2520">Evasao -50%</text>
+    <text x="104" y="326" font-size="15" fill="#5d6a63">Power BI, Excel e estatistica descritiva</text>
+  </g>
+</svg>

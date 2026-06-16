@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Analise de churn</title>
+  <desc id="desc">Segmentos de clientes e indicadores de desempenho para modelo de churn.</desc>
+  <rect width="640" height="400" fill="#f8faf7"/>
+  <circle cx="196" cy="204" r="114" fill="#1f7a5c" opacity="0.92"/>
+  <circle cx="320" cy="204" r="114" fill="#c95f35" opacity="0.88"/>
+  <circle cx="444" cy="204" r="114" fill="#243b55" opacity="0.9"/>
+  <rect x="80" y="58" width="480" height="58" rx="8" fill="#ffffff" stroke="#d8e0da"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="112" y="94" font-size="22" fill="#1d2520">Recall 74,2%</text>
+    <text x="286" y="94" font-size="22" fill="#1d2520">AUC 91,2%</text>
+    <text x="164" y="214" font-size="24" fill="#ffffff">RFV</text>
+    <text x="292" y="214" font-size="24" fill="#ffffff">XGB</text>
+    <text x="412" y="214" font-size="24" fill="#ffffff">Churn</text>
+  </g>
+</svg>

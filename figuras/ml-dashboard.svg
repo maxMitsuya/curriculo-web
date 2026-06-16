@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard de machine learning</title>
+  <desc id="desc">Painel com indicadores, linhas de tendencia e metricas de modelo.</desc>
+  <rect width="640" height="400" fill="#eef4ef"/>
+  <rect x="54" y="52" width="532" height="296" rx="8" fill="#ffffff" stroke="#d8e0da"/>
+  <rect x="82" y="82" width="130" height="74" rx="8" fill="#1f7a5c"/>
+  <rect x="234" y="82" width="130" height="74" rx="8" fill="#c95f35"/>
+  <rect x="386" y="82" width="130" height="74" rx="8" fill="#243b55"/>
+  <path d="M90 290 C160 226 208 260 270 204 S400 174 510 116" fill="none" stroke="#1f7a5c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 312 C180 286 218 302 294 250 S424 232 530 190" fill="none" stroke="#c95f35" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="104" y="116" font-size="18">RMSE</text>
+    <text x="104" y="140" font-size="24">-50%</text>
+    <text x="256" y="116" font-size="18">R2</text>
+    <text x="256" y="140" font-size="24">70%</text>
+    <text x="408" y="116" font-size="18">Deploy</text>
+    <text x="408" y="140" font-size="24">7 eqp.</text>
+  </g>
+</svg>
