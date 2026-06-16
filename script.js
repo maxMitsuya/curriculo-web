@@ -4,6 +4,7 @@ const themeToggle = document.querySelector(".theme-toggle");
 const contactForm = document.querySelector("#contact-form");
 const formStatus = document.querySelector("#form-status");
 
+// Definindo campos para preenchimento e mensagens de erro para validação do formulário
 const fields = {
   name: document.querySelector("#name"),
   email: document.querySelector("#email"),
@@ -16,12 +17,13 @@ const errors = {
   message: document.querySelector("#message-error")
 };
 
-// Mantem a preferencia de tema salva para melhorar a experiencia em visitas futuras.
+// Decidi configurar para manter a escolha do tema
 const savedTheme = localStorage.getItem("theme");
 if (savedTheme === "dark") {
   document.body.classList.add("dark-theme");
 }
 
+// Toggle do menu para dispositivos móveis
 menuToggle.addEventListener("click", () => {
   const isOpen = navLinks.classList.toggle("open");
   menuToggle.setAttribute("aria-expanded", String(isOpen));
@@ -40,6 +42,7 @@ themeToggle.addEventListener("click", () => {
   localStorage.setItem("theme", theme);
 });
 
+// Validação do formulário de contato
 function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
@@ -49,6 +52,7 @@ function setError(field, message) {
   fields[field].setAttribute("aria-invalid", message ? "true" : "false");
 }
 
+// Valida os campos do formulário e exibe mensagens de erro se necessário
 function validateForm() {
   let isValid = true;
   const name = fields.name.value.trim();
@@ -80,6 +84,7 @@ function validateForm() {
   return isValid;
 }
 
+// Manipula o envio do formulário, validando os campos e exibindo mensagens de status
 contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
   formStatus.textContent = "";
