@@ -13,5 +13,5 @@ Site desenvolvido para a atividade prática de Fundamentos da Programação Web.
 - Simulação de envio com mensagem de sucesso.
 - Menu responsivo para dispositivos móveis.
 - Alternância entre tema claro e escuro.
-- Código organizado em `index.html`, `style.css`, `script.js` e pasta `assets`.
+- Código organizado em `index.html`, `style.css`, `script.js` e pasta `figuras`.
 
